@@ -8,6 +8,8 @@ type EthosModule {
 
 type Mission {
   id: ID!
+  title: String!
+  description: String!
   address: String!
   sponsor: String!
   startDate: BigInt!
