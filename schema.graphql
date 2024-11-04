@@ -1,0 +1,20 @@
+type EthosModule {
+  id: ID!
+  name: String!
+  address: String!
+  categoryName: String!
+  categoryId: BigInt!
+}
+
+type Mission {
+  id: ID!
+  address: String!
+  sponsor: String!
+  startDate: BigInt!
+  endDate: BigInt!
+  distributionStrategy: String!
+  addtlDataCid: String!
+  contributorEligibility: String!
+  verifierEligibility: String!
+  allowedToken: String!
+}
